@@ -1,0 +1,17 @@
+/* Header Styles */
+
+header {
+  padding-top: 20px;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.brand-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.brand-wrapper img {
+  width: 200px;
+}

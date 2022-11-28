@@ -1,0 +1,91 @@
+/* Form Styles */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30vw;
+}
+
+.form-wrapper h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 270px;
+}
+
+.label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form label {
+}
+
+form input,
+textarea {
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background: #ededed;
+  padding: 12px;
+  width: 100%;
+  font-size: 18px;
+  min-width: 270px;
+}
+
+form input {
+  margin-bottom: 60px;
+}
+
+form input:last-child {
+  margin-bottom: 0;
+}
+
+form textarea {
+  min-height: 200px;
+  resize: none;
+  margin-bottom: 40px;
+}
+
+form button {
+  padding: 20px 8px;
+  max-width: 340px;
+  width: 100%;
+  border-radius: 4px;
+  background: #5ac1ae;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+form button:hover {
+  background: #439989;
+}
+
+@media (max-width: 1024px) {
+  .form-wrapper {
+    padding: 0px 25vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-wrapper {
+    padding: 0px 20vw;
+  }
+}
+
+@media (max-width: 568px) {
+  .form-wrapper {
+    padding: 0px 10vw;
+  }
+}

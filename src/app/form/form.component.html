@@ -1,0 +1,18 @@
+<div class="form-wrapper">
+  <h1>No que você está pensando?</h1>
+  <form #postsForm="ngForm" (ngSubmit)="onPostCreate(postsForm.value)">
+    <!-- Title Input -->
+    <div class="label">
+      <label for="title">Título</label>
+    </div>
+    <input id="title" type="text" name="title" ngModel/>
+
+    <!-- Content Input -->
+    <div class="label">
+      <label for="content">Conteúdo</label>
+    </div>
+    <textarea id="content" name="content" ngModel></textarea>
+
+    <button type="submit">Criar publicação</button>
+  </form>
+</div>
